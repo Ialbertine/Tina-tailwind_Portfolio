@@ -18,26 +18,23 @@
                 <li><a href="#home" class="mr-3 cursor-pointer no-underline">Home</a></li>
                 <li><a href="#Projects" class="cursor-pointer no-underline">Projects</a></li>
             </ul>
-            <div class="flex justify-center items-center mt-10">
-                <div class="relative ">
-                    <h1 class="text-5xl font-serif italic">ALBERTINE</h1>
-                    <h1 class="text-5xl font-serif italic">INGABIRE</h1>
-                    <p class="text-2xl">A Front-End Developer</p>
-                </div>
-                <img src="photo.webp"  alt="photo" class="ml-[-90px] w-[700px] h-[500px] object-cover ">
-                <div>
-                    <ul>
-                        <li><a href="#About">About Me</a></li>
-                        <li><a href="#Education">Education</a></li>
-                        <li><a href="#Certficate">Certificates</a></li>
-                        <li><a href="#Contact">Contact Me</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-
         </nav>
-
+        <div class="flex justify-center items-center mt-10">
+            <div class="relative ">
+                <h1 class="text-5xl font-serif italic">ALBERTINE</h1>
+                <h1 class="text-5xl font-serif italic">INGABIRE</h1>
+                <p class="text-2xl">A Front-End Developer</p>
+            </div>
+            <img src="photo.webp" alt="photo" class="ml-[-90px] w-[700px] h-[500px] object-cover ">
+            <div class="ml-5 ">
+                <ul class="flex flex-col">
+                    <li class="list-disc"><a href="#About" class="invisible cursor-pointer">About Me</a></li>
+                    <li><a href="#Education" class="invisible cursor-pointer">Education</a></li>
+                    <li><a href="#Certficate" class="invisible cursor-pointer">Certificates</a></li>
+                    <li><a href="#Contact" class="invisible cursor-pointer">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <!--<header class="w-full bg-red-100 py-6">
         <nav class="w-full bg-red-100 flex items-center pl-[13rem]">
@@ -46,6 +43,7 @@
                 <li><a href="#Projects">Projects</a></li>
             </ul>
         </nav>
+        hidden group-hover:block text-black hover:text-white
 
         <div class="w-full">
             <div class="w-full mt-[-60px] flex items-center ml-[15rem] h-screen">
@@ -93,7 +91,7 @@
     </header>-->
     <main class="flex justify-center items-center flex-col">
         <div class="bg-white flex flex-col items-center justify-center w-[100%]">
-            <h2 id="#Aboutme" class="text-4xl font-serif italic text-black mb-10 mt-10 font-semibold">About Me</h2>
+            <h2 id="#About" class="text-4xl font-serif italic text-black mb-10 mt-10 font-semibold">About Me</h2>
             <p class="mb-9 w-full md:w-1/3 lg:w-1/2 xl:w-1/3 text-center">I'm a paragraph. Click here to add your own
                 text and edit me. It's easy.
                 Just click “Edit Text” or double click me to add your own content and make changes to the font.
@@ -112,7 +110,8 @@
         <div class=" border-[1px] border-red-100 h-[100px] "></div>
         <div class="border-[4px] border-red-200 p-5 w-[900px] h-[600px] md:w-[80%] lg:w-[70%] xl:w-[60%]">
             <div class="mt-9">
-                <h2 id = "#Education" class="mb-3 text-4xl font-serif italic text-black font-semibold flex justify-center ">Education</h2>
+                <h2 id="#Education"
+                    class="mb-3 text-4xl font-serif italic text-black font-semibold flex justify-center ">Education</h2>
             </div>
             <div class="flex flex-col justify-center items-center mt-6">
                 <p class="mb-2 text-xl">2023 / 2026</p>
@@ -134,7 +133,8 @@
         <div class=" border-[1px] border-red-100 h-[200px] "></div>
         <div class="border-[4px] border-red-200 p-5 w-[700px] h-[480px] md:w-[80%] lg:w-[70%] xl:w-[60%]">
             <div class="mt-5">
-                <h2 id="#Certificates" class="mb-3 text-4xl font-serif italic text-black font-semibold flex justify-center">Certificates
+                <h2 id="#Certificate"
+                    class="mb-3 text-4xl font-serif italic text-black font-semibold flex justify-center">Certificates
                 </h2>
             </div>
             <div class="flex flex-col justify-center items-center mt-6">
@@ -162,7 +162,8 @@
 
         <div class="border-[4px] border-red-200 p-5 w-[100%] h-[100%] md:w-[80%] lg:w-[70%] xl:w-[60%]">
             <div class="mt-16">
-                <h2 id="#Contact" class="mb-3 text-3xl font-serif italic text-black font-semibold flex justify-center">Contact Me</h2>
+                <h2 id="#Contact" class="mb-3 text-3xl font-serif italic text-black font-semibold flex justify-center">
+                    Contact Me</h2>
             </div>
             <div class="flex flex-col justify-center items-center mt-14">
                 <p class="mb-5 text-center">500 Main Street<br> Kigali Gasabo, CA 94105</p>
@@ -201,9 +202,11 @@
                 <input id="Subject" name="subject" type="text"
                     class="mt-1 p-2 block w-full border-[1px] border-black shadow-sm focus:outline-none hover:border-[2px]"
                     placeholder="Subject">
-                <div >
+                <div>
                     <label for="Message" class="block mt-4 text-base text-black">Enter Your Message</label>
-                    <textarea id="Message" name="message" class="form-textarea text-white transition duration-1000 mt-1 p-2 block w-full border-[1px] border-black shadow-sm focus:outline-none hover:border-[2px] resize-none h-32" placeholder="Your Message"></textarea>
+                    <textarea id="Message" name="message"
+                        class="form-textarea text-white transition duration-1000 mt-1 p-2 block w-full border-[1px] border-black shadow-sm focus:outline-none hover:border-[2px] resize-none h-32"
+                        placeholder="Your Message"></textarea>
 
                 </div>
 
