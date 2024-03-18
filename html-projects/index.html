@@ -12,22 +12,25 @@
 </head>
 
 <body class="m-0 p-0 font-sans bg-white text-black overflow-x-hidden">
-    <header class="w-full bg-red-100 h-[100vh]">
-        <nav class="w-full bg-red-100 py-6">
-            <ul class="flex ml-[9rem] text-xl text-black">
+    <header class="min-h-screen w-full bg-red-100 top-0">
+        <nav class=" flex w-full bg-red-100 py-6">
+            <ul class="flex text-xl text-black ml-[18rem]">
                 <li><a href="#home" class="mr-3 cursor-pointer no-underline">Home</a></li>
                 <li><a href="#Projects" class="cursor-pointer no-underline">Projects</a></li>
             </ul>
+            <div class="text-2xl md:hidden ml-auto mr-[25px] focus:outline-none">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
         <div class="flex justify-center items-center mt-10">
             <div class="flex justify-between items-center">
-                <div class="relative ">
+                <div class="relative ml-[15rem] ">
                     <h1 class="text-5xl font-serif italic">ALBERTINE</h1>
                     <h1 class="text-5xl font-serif italic">INGABIRE</h1>
                     <p class="text-2xl">A Front-End Developer</p>
                 </div>
                 <img src="photo.webp" alt="photo" class="ml-[-90px] w-[700px] h-[500px] object-cover ">
-                <div class="ml-[15rem]">
+                <div class="ml-[9rem]">
                     <ul class="flex flex-col">
                         <li class="cursor-pointer">
                             <a href="#About" class="invisible">
@@ -58,59 +61,6 @@
             </div>
         </div>
     </header>
-    <!--<header class="w-full bg-red-100 py-6">
-        <nav class="w-full bg-red-100 flex items-center pl-[13rem]">
-            <ul class="flex items-center text-xl">
-                <li><a href="#home" class="mr-3">Home</a></li>
-                <li><a href="#Projects">Projects</a></li>
-            </ul>
-        </nav>
-        hidden group-hover:block text-black hover:text-white
-
-        <div class="w-full">
-            <div class="w-full mt-[-60px] flex items-center ml-[15rem] h-screen">
-                <div class="w-full flex items-center relative">
-                    <div class="leading-5 absolute top-0 left-0 z-10">
-                        <h1 class="text-5xl font-serif italic">ALBERTINE</h1>
-                        <h1 class="text-5xl font-serif italic">INGABIRE</h1>
-                        <p class="text-2xl">A Front-End Developer</p>
-                    </div>
-                    <div class="-mt-20 ml-[-70px] -z-10 relative">
-                        <img src="photo.webp" alt="profile photo" class="w-[700px] h-[500px] object-cover">
-                    </div>
-                    
-                </div>
-                
-                <div class="flex flex-col gap-3 pr-[4rem] ">
-                    <div class="relative">
-                        <div class="w-[15px] h-[15px] rounded-full bg-white border-[1px] border-black hover:bg-black">
-                            <a href="#Aboutme"
-                                class="absolute hidden group-hover:block text-black hover:text-white">About
-                                Me</a>
-                        </div>
-                    </div>
-                    <div class="relative">
-                        <div class="w-[15px] h-[15px] rounded-full bg-white border-[1px] border-black hover:bg-black">
-                            <a href="#Education"
-                                class="absolute hidden group-hover:block text-black hover:text-white">Education</a>
-                        </div>
-                    </div>
-                    <div class="relative">
-                        <div class="w-[15px] h-[15px] rounded-full bg-white border-[1px] border-black hover:bg-black">
-                            <a href="#Certificates"
-                                class="absolute hidden group-hover:block text-black hover:text-white">Certificates</a>
-                        </div>
-                    </div>
-                    <div class="relative">
-                        <div class="w-[15px] h-[15px] rounded-full bg-white border-[1px] border-black hover:bg-black">
-                            <a href="#Contacts"
-                                class="absolute hidden group-hover:block text-black hover:text-white">Contacts</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>-->
     <main class="flex justify-center items-center flex-col">
         <div class="bg-white flex flex-col items-center justify-center w-[100%]">
             <h2 id="#About" class="text-4xl font-serif italic text-black mb-10 mt-10 font-semibold">About Me</h2>
