@@ -11,25 +11,29 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="m-0 p-0 font-sans bg-white text-black overflow-x-hidden">
-    <header class="min-h-screen w-full bg-red-100">
-        <nav class="flex w-full bg-red-100 py-6">
-            <ul class="flex text-xl text-black ml-[18rem] sm:hidden lg:visible">
-                <li><a href="#home" class="mr-3 cursor-pointer no-underline">Home</a></li>
-                <li><a href="#Projects" class="cursor-pointer no-underline">Projects</a></li>
-            </ul>
-            <div class="text-2xl md:hidden ml-auto mr-[25px]">
-                <i class="fa-solid fa-bars"></i>
+<body class="m-0 p-0 font-sans bg-white text-black">
+    <header class="bg-red-200 h-[100vh]">
+        <nav class="p-6"> 
+            <div class="flex justify-between items-center">
+                <div class="hidden md:flex space-x-4">
+                    <a href="#home" class="text-black">Home</a>
+                    <a href="#Projects" class="text-black hover:text-opacity-50">Projects</a>
+                </div>
+                <div class="ml-auto md:hidden">
+                    <button id="burgerBtn" class="text-black focus:outline-none">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                </div>
             </div>
         </nav>
-        <div class="flex justify-center items-center mt-10">
+        <div class=" flex justify-center items-center mt-14">
             <div class="flex justify-between items-center">
-                <div class="relative ml-[15rem] ">
+                <div class="relative pl-[15rem] ">
                     <h1 class="text-5xl font-serif italic">ALBERTINE</h1>
                     <h1 class="text-5xl font-serif italic">INGABIRE</h1>
                     <p class="text-2xl">A Front-End Developer</p>
                 </div>
-                <img src="photo.webp" alt="photo" class="ml-[-90px] w-[700px] h-[500px] object-cover ">
+                <img src="photo.webp" alt="photo" class="ml-[-90px] w-[700px] h-[500px]   object-cover ">
                 <div class="ml-[9rem]">
                     <ul class="flex flex-col list-disc">
                         <li class="cursor-pointer ">
